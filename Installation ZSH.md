@@ -15,13 +15,20 @@ git --version
 ```
 
 ## Zsh
+### 1. installation
 ```
 sudo apt install zsh
 sudo apt install git-core
 sudo wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
-sudo chsh -s `which zsh`
-sudo reboot
 ```
 or
 
-install avec [oh-my-zsh](https://ohmyz.sh/)
+[oh-my-zsh](https://ohmyz.sh/) - site officiel
+
+### 2. Paramétrage
+
+Pour définir Zsh par défaut pour le terminal:
+```
+sudo chsh -s `which zsh`
+sudo reboot
+```
