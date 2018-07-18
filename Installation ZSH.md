@@ -15,13 +15,13 @@ git --version
 ```
 
 ## Zsh
-### 1. installation
+### 1. Installation
 ```
 sudo apt install zsh
 sudo apt install git-core
 sudo wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 ```
-or
+OU
 
 [oh-my-zsh](https://ohmyz.sh/) - site officiel
 
