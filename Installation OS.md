@@ -64,9 +64,3 @@ sudo add-apt-repository ppa:kranich/cubuntu
 sudo apt-get update
 sudo apt-get install nvidia-367 nvidia-libopencl1-367 nvidia-opencl-icd-367 nvidia-prime nvidia-settings mesa-utils prime-indicator
 ```
-
-
-
-
-
-
