@@ -20,7 +20,7 @@ Il est important de configurer la BIOS correctement afin d'éviter que le systè
 - ERP : Disabled
 - Intel Virtualization : Enabled (virtualisation)
 - VT-d : Enabled (virtualisation)
-- CPU C-States : Disabled  important !
+- CPU C-States : Disabled  (important !)
 ```
 
 ## Installation OS
