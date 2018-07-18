@@ -1,4 +1,4 @@
-# MSI-GE63VR-7RF-Raider
+# MSI GE63VR 7RF Raider
 Installation Xubuntu 18.04
 
 ## Download : 
