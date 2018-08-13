@@ -18,3 +18,13 @@ open file '.zshrc'
 
 
 end file enter `alias sound="alsamixer"`
+
+## HDMI not sound
+ref: [site](http://forum.kubuntu-fr.org/viewtopic.php?id=2027621)
+download : [here](https://bugs.freedesktop.org/attachment.cgi?id=136418&action=edit)
+
+`make
+sudo make install
+echo nvhda | sudo tee -a /etc/initramfs-tools/modules
+echo "options nvhda load_state=1" | sudo tee /etc/modprobe.d/nvhda.conf
+sudo update-initramfs -u`
