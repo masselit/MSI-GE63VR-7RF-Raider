@@ -29,6 +29,6 @@ Editing `~/.zshrc` with gedit or nano
 alias ng="~/.npm-global/lib/node_modules/@angular/cli/bin/ng"
 ```
 
-### Other link issus:
+### Other link issues:
   - https://github.com/angular/angular-cli/issues/503
   - https://www.npmjs.com/package/@angular/cli#updating-angular-cli
