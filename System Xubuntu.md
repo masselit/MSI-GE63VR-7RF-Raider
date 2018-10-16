@@ -30,3 +30,6 @@ echo nvhda | sudo tee -a /etc/initramfs-tools/modules
 echo "options nvhda load_state=1" | sudo tee /etc/modprobe.d/nvhda.conf
 sudo update-initramfs -u
 ```
+
+## RGB keyboard backlighting on MSI laptops
+[git projet keyboard](https://github.com/Askannz/msi-perkeyrgb)
