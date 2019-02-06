@@ -4,6 +4,22 @@
 `logiciel` > `Kazam`
 
 ## Casque avec un son faible / Headset with a weak sound
+
+`cd /usr/share/pulseaudio/alsa-mixer/paths/`
+`sudo gedit analog-output-headphones.conf`
+
+mettre à jour le fichier/ update the file
+```
+[Element Speaker]
+switch = off
+volume = 100
+```
+
+restart pulseaudio
+`pulseaudio -k ; pulseaudio -D  `
+
+Other solution:
+
 ```
 sudo alsamixer
 ```
@@ -19,6 +35,7 @@ open file '.zshrc'
 
 end file enter `alias sound="alsamixer"`
 
+
 ## HDMI not sound
 - ref: [site](http://forum.kubuntu-fr.org/viewtopic.php?id=2027621)
 - download : [here](https://bugs.freedesktop.org/attachment.cgi?id=136418&action=edit)
@@ -30,6 +47,3 @@ echo nvhda | sudo tee -a /etc/initramfs-tools/modules
 echo "options nvhda load_state=1" | sudo tee /etc/modprobe.d/nvhda.conf
 sudo update-initramfs -u
 ```
-
-## RGB keyboard backlighting on MSI laptops
-[git projet keyboard](https://github.com/Askannz/msi-perkeyrgb)
