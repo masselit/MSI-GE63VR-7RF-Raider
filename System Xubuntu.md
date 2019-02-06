@@ -5,10 +5,12 @@
 
 ## Casque avec un son faible / Headset with a weak sound
 
-`cd /usr/share/pulseaudio/alsa-mixer/paths/`
-`sudo gedit analog-output-headphones.conf`
+```
+cd /usr/share/pulseaudio/alsa-mixer/paths/
+sudo gedit analog-output-headphones.conf
+```
 
-mettre à jour le fichier/ update the file
+mettre à jour le fichier / update the file
 ```
 [Element Speaker]
 switch = off
@@ -16,7 +18,9 @@ volume = 100
 ```
 
 restart pulseaudio
-`pulseaudio -k ; pulseaudio -D  `
+```
+pulseaudio -k ; pulseaudio -D  
+```
 
 Other solution:
 
