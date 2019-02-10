@@ -47,3 +47,11 @@ echo nvhda | sudo tee -a /etc/initramfs-tools/modules
 echo "options nvhda load_state=1" | sudo tee /etc/modprobe.d/nvhda.conf
 sudo update-initramfs -u
 ```
+
+## Clavier / Keyboard SteelSeries (AZERTY)
+
+git projet ref : [here](https://github.com/Askannz/msi-perkeyrgb)
+
+![alt text](https://github.com/masselit/MSI-GE63VR-7RF-Raider/blob/master/doc/Capture%20d'%C3%A9cran%202019-02-10%2022:25:08.png)
+
+
